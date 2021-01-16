@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAE8FC"
+        android:padding="5dp"
+        android:text="Monday"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MSc I.T Time Table"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAE8FC"
+        android:padding="5dp"
+        android:text="Tuesday"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMon"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <Button
+        android:id="@+id/btnWed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAE8FC"
+        android:padding="5dp"
+        android:text="Wednesday"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTue"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <Button
+        android:id="@+id/btnThu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAE8FC"
+        android:padding="5dp"
+        android:text="Thursday"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWed"
+        app:layout_constraintVertical_bias="0.083" />
+
+
+    <Button
+        android:id="@+id/btnFri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAE8FC"
+        android:padding="5dp"
+        android:text="Friday"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThu"
+        app:layout_constraintVertical_bias="0.083" />
+
+
+    <Button
+        android:id="@+id/btnSat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DAE8FC"
+        android:padding="5dp"
+        android:text="Saturday"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFri"
+        app:layout_constraintVertical_bias="0.203" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
